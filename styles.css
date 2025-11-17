@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+.candidate {
+    border: 1px solid #ccc;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    max-width: 350px;
+}
+
+.candidate img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 1px solid #ddd;
+}
+
+.party.democrat {
+    color: #0066ff;
+}
+
+.party.republican {
+    color: #ff0000;
+}
+
+.party.other {
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    background-color: #eee;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0066ff;
+    font-weight: bold;
+}
